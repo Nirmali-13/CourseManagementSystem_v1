@@ -47,6 +47,8 @@ namespace CourseManagementSystem_v1
         {
             Price = price;
         }
+
+        int totalcount = 0;
         //3rd a
         public Course(string courseId, string title, string duration, decimal price)
         {
@@ -54,12 +56,17 @@ namespace CourseManagementSystem_v1
             this.title = title;
             Duration = duration;
             Price = price;
+            totalcount++;
         }
         //3rd b
         public string ToString(string courseId, string title, string duration, decimal price)
         {
             return @"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price}";
         }
+
+        //3rd c
+
+        //4th
 
         
         
