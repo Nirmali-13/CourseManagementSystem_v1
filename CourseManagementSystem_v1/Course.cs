@@ -9,6 +9,14 @@ namespace CourseManagementSystem_v1
     internal class Course
     {
         private string courseId;
+        public void getcourseid(string courseid)
+        {
+            courseId = courseid;
+        }
+        public void setcourseid(string id)
+        {
+            courseId = id;
+        }
         private string title;
         private string Duration;
         private decimal Price;
