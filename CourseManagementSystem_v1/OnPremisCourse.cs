@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CourseManagementSystem_v1
 {
-    internal class OnPremisCourse
+    internal class OnPremisCourse : Course
     {
+        public string Schedule;
+        public int ClassroomCapacity;
+        public OnPremisCourse(string schedule, int classroomCapacity, string courseId, string title, string duration, decimal price) : base(courseId, title, duration, price)
+        {
+            Schedule = schedule;
+            ClassroomCapacity = classroomCapacity;
+        }
+
+       
     }
 }
