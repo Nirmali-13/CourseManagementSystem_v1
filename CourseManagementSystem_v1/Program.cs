@@ -10,6 +10,7 @@ namespace CourseManagementSystem_v1
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

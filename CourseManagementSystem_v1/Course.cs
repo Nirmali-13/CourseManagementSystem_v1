@@ -36,10 +36,32 @@ namespace CourseManagementSystem_v1
             Duration= duration;
         }
         private decimal Price;
+
+       
+
         public void getprice(decimal price)
         {
             Price=price;
         }
+        public void setprice(decimal price)
+        {
+            Price = price;
+        }
+        //3rd a
+        public Course(string courseId, string title, string duration, decimal price)
+        {
+            this.courseId = courseId;
+            this.title = title;
+            Duration = duration;
+            Price = price;
+        }
+        //3rd b
+        public string ToString(string courseId, string title, string duration, decimal price)
+        {
+            return @"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price}";
+        }
+
+        
         
     }
 }
