@@ -16,6 +16,9 @@ namespace CourseManagementSystem_v1
             ClassroomCapacity = classroomCapacity;
         }
 
-       
+       public void DisplayOnPremisCourseInfo()
+        {
+            Console.WriteLine(@"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price},Schedule:{Schedule}, ClassroomCapacity:{ ClassroomCapacity}");
+        }
     }
 }
