@@ -23,9 +23,30 @@ namespace CourseManagementSystem_v1
                 Console.WriteLine("4. Delete a Course");
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("Choos an option:");
-                string option = Console.ReadLine();
+                string option = Console.ReadLine() ;
+                
+                switch (5)
+                {
+                    case 1:
+                        
+                        Console.WriteLine("enter course id:");
+                        string id = Console.ReadLine();
+                        Console.WriteLine("enter course title:");
+                        string title = Console.ReadLine();
+                        Console.WriteLine("enter course duration:");
+                        string duration = Console.ReadLine();
+                        Console.WriteLine("enter course price:");
+                        string price = Console.ReadLine();
+                       
+                        Console.WriteLine("Course added successfully");
+                        break;
+                    case 2:
+
+
+                }
             }
-            switch opt
+            
+
 
 
 

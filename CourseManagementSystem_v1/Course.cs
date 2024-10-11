@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CourseManagementSystem_v1
 {
-    internal class Course
+    public class Course
     {
-
+        
         private string courseId;
         public void getcourseid(string courseid)
         {
