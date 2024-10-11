@@ -10,11 +10,11 @@ namespace CourseManagementSystem_v1
 {
     public class DigitalCourse : Course
     {
-        public string Schedule;
+        public string CourceLink;
         public int FileSize;
-        public DigitalCourse(string schedule,int fileSize,string courseId, string title, string duration, decimal price) : base(courseId, title, duration, price)
+        public DigitalCourse(string courcelink,int fileSize,string courseId, string title, string duration, decimal price) : base(courseId, title, duration, price)
         {
-           Schedule = schedule;
+           CourceLink = courcelink;
             FileSize = fileSize;  
         }
     }
