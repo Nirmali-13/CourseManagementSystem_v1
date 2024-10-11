@@ -18,8 +18,28 @@ namespace CourseManagementSystem_v1
             courseId = id;
         }
         private string title;
+        public void gettitle(string Title)
+        {
+            title= Title;
+        }
+        public void settitle(string Title)
+        {
+            title = Title;
+        }
         private string Duration;
+        public void getduration(string duration)
+        {
+            Duration = duration;
+        }
+        public void setduration(string duration)
+        {
+            Duration= duration;
+        }
         private decimal Price;
+        public void getprice(decimal price)
+        {
+            Price=price;
+        }
         
     }
 }
