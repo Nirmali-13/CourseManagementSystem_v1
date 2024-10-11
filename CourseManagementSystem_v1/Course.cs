@@ -8,6 +8,7 @@ namespace CourseManagementSystem_v1
 {
     internal class Course
     {
+
         private string courseId;
         public void getcourseid(string courseid)
         {
@@ -20,7 +21,7 @@ namespace CourseManagementSystem_v1
         private string title;
         public void gettitle(string Title)
         {
-            title= Title;
+            title = Title;
         }
         public void settitle(string Title)
         {
@@ -33,15 +34,15 @@ namespace CourseManagementSystem_v1
         }
         public void setduration(string duration)
         {
-            Duration= duration;
+            Duration = duration;
         }
         private decimal Price;
 
-       
+
 
         public void getprice(decimal price)
         {
-            Price=price;
+            Price = price;
         }
         public void setprice(decimal price)
         {
